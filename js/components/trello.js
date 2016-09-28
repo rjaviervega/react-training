@@ -10,7 +10,6 @@ import { addList, addCard } from '../actions/index';
 
     render() {
         const list = this.props.lists;
-
         return (
             <div>
                 {list.map((item)=>{
